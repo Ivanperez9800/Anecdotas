@@ -1,10 +1,12 @@
 
 const Part = (props) => {
 
-   const { part, exercises } = props.part;
+    const { name, exercises } = props.part;
+
+    // console.log(name)
    
   return (
-   <p> {part}: {exercises} </p>
+   <p> {name}: {exercises} </p>
   )
 }
 
